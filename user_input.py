@@ -1,0 +1,11 @@
+def reverse(text):
+    return text[::-1]
+
+def is_palindrome(text):
+    return text == reverse(text)
+
+sometheing = input('Введите текст: ')
+if (is_palindrome(sometheing)):
+    print('Да, это палиндром')
+else:
+    print("Нет, это не палиндром")
